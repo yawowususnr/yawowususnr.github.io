@@ -3,6 +3,8 @@ import githubLogo from "./assets/github.png";
 import iconbetter from "./assets/removebg.png";
 import Highlights from "./components/Highlights";
 import linkedIn from "./assets/linkedin480.png";
+import goImg from "./assets/goImg.png";
+import swift from "./assets/swift.png";
 
 import vue from "./assets/vue.png";
 import reactlogo from "./assets/react.svg";
@@ -13,7 +15,7 @@ import HomeAnimation from "./components/HomeAnimations";
 export default function Home() {
     return (
         <div className="bg-card min-h-screen text-white flex flex-col items-center pt-3">
-            <div className="sm:w-5/6 md:w-[780px] lg:w-[780px] mt-8">
+            <div className="px-6 md:w-[780px] lg:w-[780px] mt-8">
                 <div className="my-10 flex items-end">
                     <div className="w-2/3">
                         <h2 className="text-5xl font-bold mt-32">
@@ -172,6 +174,16 @@ export default function Home() {
                         </h3>
                         <div className="grid md:grid-cols-2 lg:grid-cols-2 sm:grid-cols-1 gap-5 mb-20">
                             <Highlights
+                                date={"June 2024"}
+                                image={swift}
+                                text={"Built my first SwiftUI App"}
+                            />
+                            <Highlights
+                                date={"June 2024"}
+                                image={goImg}
+                                text={"Built my first GO API"}
+                            />
+                            <Highlights
                                 date={"May 2024"}
                                 image={vue}
                                 text={"Learning Vue Framework"}
@@ -179,7 +191,7 @@ export default function Home() {
                             <Highlights
                                 date={"March 2024"}
                                 image={gear}
-                                text={"Built my first API"}
+                                text={"Built my first Node API"}
                             />
                             <Highlights
                                 date={"October 2023"}
