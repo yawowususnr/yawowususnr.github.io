@@ -223,7 +223,7 @@ export default function Home() {
                         </a>
 
                         <a
-                            href="https://drive.google.com/file/d/12vjRdB33N6jT6SB0cHDbuuJCZ-h_j6wc/view?usp=sharing"
+                            href="https://drive.google.com/drive/folders/1imauGrV8NtuO-TqWNJkTXPHk8988LBzo?usp=sharing"
                             target="_blank"
                             rel="noopener noreferrer"
                         >
