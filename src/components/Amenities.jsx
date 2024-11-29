@@ -91,15 +91,9 @@ export const Amenities = () => {
   ];
 
   return (
-    <div id="amenities" className="bg-white py-28 px-5">
-      <div className="flex justify-evenly items-center gap-3">
-        <div>
-          <h2 className="text-5xl font-bold mb-2">Amenities</h2>
-          <p className="text-lg text-slate-600">
-            Here to make your life as easy as possible
-          </p>
-        </div>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-5xl">
+    <div className="container mx-auto p-6">
+      <h1 className="text-4xl font-semibold text-center mb-8">Our Amenities</h1>
+      <div className="grid grid-cols-1 sm:grid-cols-2 gap-8">
           {amenities.map((amenity, index) => (
             <div
               key={index}
@@ -116,6 +110,5 @@ export const Amenities = () => {
           ))}
         </div>
       </div>
-    </div>
   );
 };

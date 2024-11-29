@@ -60,18 +60,18 @@ const HeroVar = () => {
   ];
 
   return (
-    <div className="flex h-screen">
+    <div className="flex flex-col md:flex-row md:h-screen">
       {/* Left Section */}
-      <div className="w-1/3 flex flex-col items-center justify-center bg-[#FFF8ED]">
+      <div className="w-full md:w-1/3 flex flex-col items-center justify-center bg-[#FFF8ED] px-4 py-96 md:py-0 md:pb-0">
         <div>
-          <h1 className="text-6xl lg:text-[3rem] text-center uppercase mb-4 font-light tracking-widest">
+          <h1 className="text-4xl md:text-6xl lg:text-[3rem] text-center uppercase mb-4 font-light tracking-widest">
             Mansa Pavilion
           </h1>
         </div>
 
         <div className="border-b-2 w-1/6 border-black pt-4"></div>
 
-        <p className="lg:mt-6 text-xl mb-6 font-medium tracking-wide">
+        <p className="mt-4 text-lg md:text-xl mb-6 font-medium tracking-wide text-center">
           Come to the perfect venue for all your needs
         </p>
         <Link to={"/request"}>
@@ -82,7 +82,7 @@ const HeroVar = () => {
       </div>
 
       {/* Slider Section */}
-      <div className="w-2/3 flex h-full">
+      <div className="hidden md:flex w-2/3 h-full">
         <Slider {...settings} className="w-full">
           {images.map((src, index) => (
             <div key={index} className="flex justify-center h-screen">
