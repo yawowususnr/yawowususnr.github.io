@@ -1,18 +1,13 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Italiana&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-body {
-    font-family: "Inter", sans-serif;
-    background-color: black;
-}
-
-.map-marker {
-    position: absolute;
-    width: 24px;
-    height: 24px;
-    border-radius: 50%;
-    background-color: #0090ff;
-    transform: translate(-50%, -50%);
-    border: 3px solid rgba(255, 255, 255, 0.95);
+:root {
+  font-family: "Raleway", sans-serif;
+  background: #fafaf9;
 }
